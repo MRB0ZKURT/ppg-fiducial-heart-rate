@@ -1,5 +1,7 @@
 # PPG fiducial and heart rate revision software
 
+This repository mirrors the versioned Zenodo archive. Download `software_release_v0.2.0.zip`, extract it into a new folder, and run the commands below from that extracted folder. The full source tree, configurations, dependency lock and scripts are inside the ZIP.
+
 Version 0.2.0. Software DOI: https://doi.org/10.5281/zenodo.24047810. Source repository: https://github.com/MRB0ZKURT/ppg-fiducial-heart-rate. It accompanies “PPG fiducial choice and the incremental value of heart rate for pulse timing prediction”.
 
 ## Which results are current
