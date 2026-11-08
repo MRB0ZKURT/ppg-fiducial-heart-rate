@@ -1,0 +1,380 @@
+{
+  "status": "passed",
+  "fresh_install_tested": true,
+  "full_raw_data_end_to_end_tested": true,
+  "primary_run_status": {
+    "mode": "full",
+    "completed_stages": [
+      "inventory",
+      "method_sensitivity",
+      "historical_extraction",
+      "historical_models",
+      "revision_models.py",
+      "audit_rr_and_icc.py",
+      "quality_consistent_models.py",
+      "verify_stage2.py",
+      "signal_sensitivity.py",
+      "verify_stage3.py",
+      "native_csv_revision.py",
+      "prepare_integrated_assets.py"
+    ],
+    "sensitivities_included": true,
+    "raw_data_end_to_end": true
+  },
+  "comparisons": {
+    "stage2_quality_consistent/comparison_summary.csv": {
+      "match": true,
+      "rows": 24,
+      "columns": 13
+    },
+    "stage2_quality_consistent/hr_only_vs_intercept_summary.csv": {
+      "match": true,
+      "rows": 6,
+      "columns": 13
+    },
+    "stage2_quality_consistent/within_summary.csv": {
+      "match": true,
+      "rows": 72,
+      "columns": 11
+    },
+    "stage2_quality_consistent/icc_profile_reml.csv": {
+      "match": true,
+      "rows": 3,
+      "columns": 10
+    },
+    "stage2_quality_consistent/mixed_fixed_effects.csv": {
+      "match": true,
+      "rows": 33,
+      "columns": 8
+    },
+    "stage3/filter_record_shifts.csv": {
+      "match": true,
+      "rows": 6,
+      "columns": 6
+    },
+    "stage3/coverage.csv": {
+      "match": true,
+      "rows": 48,
+      "columns": 6
+    },
+    "stage3/complete_outcome_counts.csv": {
+      "match": true,
+      "rows": 12,
+      "columns": 6
+    },
+    "stage3/filter_5_available_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/filter_5_common_all_cutoffs_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/filter_8_available_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/filter_8_common_all_cutoffs_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/filter_12_available_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/filter_12_common_all_cutoffs_summary.csv": {
+      "match": true,
+      "rows": 15,
+      "columns": 13
+    },
+    "stage3/signed_available_summary.csv": {
+      "match": true,
+      "rows": 10,
+      "columns": 13
+    },
+    "stage3/signed_common_positive_signed_summary.csv": {
+      "match": true,
+      "rows": 10,
+      "columns": 13
+    },
+    "stage4/native_wfdb_summary.csv": {
+      "match": true,
+      "rows": 3,
+      "columns": 8
+    },
+    "historical/ppg_method_beats.csv": {
+      "match": true,
+      "rows": 72020,
+      "columns": 35
+    },
+    "historical/intervals.csv": {
+      "match": true,
+      "rows": 18005,
+      "columns": 54
+    },
+    "historical/beat_quality.csv": {
+      "match": true,
+      "rows": 18005,
+      "columns": 25
+    },
+    "historical/ppg_method_model_selection.csv": {
+      "match": true,
+      "rows": 383,
+      "columns": 9
+    },
+    "supplementary/D01_corrected_outer_selection.csv": {
+      "match": true,
+      "rows": 96,
+      "columns": 8
+    },
+    "supplementary/D02_inner_fold_rmse.csv": {
+      "match": true,
+      "rows": 2400,
+      "columns": 5
+    },
+    "supplementary/D03_participant_errors.csv": {
+      "match": true,
+      "rows": 768,
+      "columns": 5
+    },
+    "supplementary/D04_within_participant.csv": {
+      "match": true,
+      "rows": 2240,
+      "columns": 15
+    },
+    "supplementary/D05_conditional_slopes.csv": {
+      "match": true,
+      "rows": 192,
+      "columns": 4
+    },
+    "supplementary/D06_mixed_coefficients.csv": {
+      "match": true,
+      "rows": 30,
+      "columns": 9
+    },
+    "supplementary/D07_filter_coverage.csv": {
+      "match": true,
+      "rows": 48,
+      "columns": 6
+    },
+    "supplementary/D08_outcome_exclusions.csv": {
+      "match": true,
+      "rows": 192,
+      "columns": 6
+    },
+    "supplementary/D09_record_retention.csv": {
+      "match": true,
+      "rows": 16224,
+      "columns": 9
+    },
+    "supplementary/D10_native_pairs.csv": {
+      "match": true,
+      "rows": 338,
+      "columns": 13
+    },
+    "supplementary/D11_collinearity.csv": {
+      "match": true,
+      "rows": 9,
+      "columns": 7
+    },
+    "supplementary/D12_oracle_diagnostic.csv": {
+      "match": true,
+      "rows": 96,
+      "columns": 6
+    },
+    "supplementary/D13_participant_characteristics.csv": {
+      "match": true,
+      "rows": 32,
+      "columns": 7
+    },
+    "supplementary/D14_slope_sign_summary.csv": {
+      "match": true,
+      "rows": 6,
+      "columns": 4
+    },
+    "supplementary/D15_random_effect_variances.csv": {
+      "match": true,
+      "rows": 6,
+      "columns": 8
+    },
+    "supplementary/D16_hr_only_comparison.csv": {
+      "match": true,
+      "rows": 6,
+      "columns": 13
+    },
+    "supplementary/D17_contextual_comparisons.csv": {
+      "match": true,
+      "rows": 24,
+      "columns": 13
+    }
+  },
+  "tolerance": {
+    "rtol": 1e-10,
+    "atol": 1e-10
+  },
+  "lock_sha256": "cfecd10953a666c28a0321e3c1e7f765365f55e0fe1c12a84010280f19d5be9a",
+  "input_package_sha256": "8ddd833dfc3450da4c0172110884fee611697c00e95897da1db55c5996ebbfaa",
+  "limitations": [
+    "Historical QTDB results were not rerun. Pilot uses retained primitive and reconstructed wrapper."
+  ],
+  "post_run_correction": "The supplementary asset stage was corrected to include D15-D17 and the Holm-adjusted D06 column previously added only by the document builder. That entire stage was rerun in the same clean environment and all 17 tables compared. Upstream numerical processing was unchanged.",
+  "tested_source_sha256": {
+    "scripts/download_ptt_ppg_pilot.py": "05584d3c87d83369395a8961a36dfc1674f41f4fe646708109ebb45afda17ce2",
+    "scripts/download_qtdb.py": "79ddf1b368b0d04dad09536626a9a5950fe099972e0a78a7f111e43ded43f316",
+    "scripts/download_senssmarttech.py": "2ef3a001619049a666d7df1ed28ac9cd9671400e4932fb7f1fd5ce3e9347538e",
+    "scripts/reproduce_historical_pilot.py": "6f6a66f3b7557cc7a3107bf88edf1fd9414d0e8cf6c6de8683455c1f3dae904f",
+    "scripts/reproduce_revision.py": "f17855639b7516bfa9b2da1972e3d2ff270022164d6613383901c82362093589",
+    "revision/scripts/audit_rr_and_icc.py": "52d27b4cf3dba1b1dc929692cb2bec2a4977586e7caef3e95c9fcc45c30b35f3",
+    "revision/scripts/native_csv_revision.py": "54b17b9c549f2ca64c156b943f583de2fe8a9b60d192adb004c7a5b15cce4a20",
+    "revision/scripts/prepare_integrated_assets.py": "bab984a41cbcabb942c66472208f6054034db8ac0672be7803ee031f89d49485",
+    "revision/scripts/quality_consistent_models.py": "231aaff2b5f502850d0b303591510605191b281af7de24c18f50f50e5b99d2a5",
+    "revision/scripts/revision_models.py": "084530e93e67120f0632cace57f65d11b014639202095cac53097a504736c908",
+    "revision/scripts/signal_sensitivity.py": "fb3ee44c4e770afc427c1ae7d8f51b90022f33d6795f277dbfaed75b7a264ca6",
+    "revision/scripts/verify_stage2.py": "78a2b47eb53f33203ad4ed6224bf64472d84a7a35f3bcc9bca622bb1ec2108d5",
+    "revision/scripts/verify_stage3.py": "cd4c19f3a70c6c95f2c4e80a37a88616b0677beab2d9a14168fe5c48f79574ef",
+    "src/senssmarttech/algorithmic_validation.py": "7b9859a8f1d04d392baf0556836af016c8353603b0fed016083a1e1fc970e28b",
+    "src/senssmarttech/annotations.py": "43ac2c90ff30463b9b24ab98eaedbe5dcbe9d1fa6938c05dd61ebf43885a8d07",
+    "src/senssmarttech/annotation_app.py": "f0bf6459b223e402d2df8754b2b25d9008bd33ea061976541121fe8f2f378f1c",
+    "src/senssmarttech/annotation_scoring.py": "ebaf40edb3dd40aba4ab9e55a3e66fba58f86154ca38a16ac96a41f31e5bb990",
+    "src/senssmarttech/audit.py": "c7eac71d08d8aa4c46301d52bbf1878da8a6b7d270074419a58ce31328e502f1",
+    "src/senssmarttech/cli.py": "065cb2097e57bd9965ae6cade8e8c5a61fad683014e435d8c63db9aa17f61579",
+    "src/senssmarttech/config.py": "b0ec51bf2e794b3fb0b2056fc43488f2cb639115d5ed1d30c993608e2bc5de31",
+    "src/senssmarttech/csv_sensitivity.py": "579c3ff776ee3c7eef9cfcf6394ecb818382e54665543bfce8e3f06d0b979f85",
+    "src/senssmarttech/external.py": "7e1af2503d9a38f4dbbc489246a309c5c870815ad4de88f08468ece52a1a0b74",
+    "src/senssmarttech/extract.py": "6186e1f7aa0a1c076f59011c7150d1798b376f9436833010a7d9020ac00cca23",
+    "src/senssmarttech/fiducials.py": "2dd974b74f18064d1d9565f40285fee8545b17232e9d0f97b4d1b209cc9c19aa",
+    "src/senssmarttech/metadata.py": "b40e5e24946ea012f4c606f060cf4b98623bc7c326bcc81913c0e3d79377bc78",
+    "src/senssmarttech/mixed_effects.py": "0f13cdab1d8afb9adfd51bfa3500a0ba0a358bfc5d95e95401402b59cd63fca5",
+    "src/senssmarttech/models.py": "a3c087be0acc4acd7fc2a1657230c74d7b6ec991bc4c1bf12630cfb2f03f8e1c",
+    "src/senssmarttech/pcg_reference_adapter.py": "35c0b555252859a54d999e134c04468d2616b5ff994c400c8d8601dd7abaab29",
+    "src/senssmarttech/quality.py": "46fe32d403d9a062a088ce52a8c782f483c94519982ef49f4cf3b87c8914b49b",
+    "src/senssmarttech/reporting.py": "f86e1f3cc8c91f38cce6ddca66371850432be16192e0136e14b31baf2ffd80a9",
+    "src/senssmarttech/signals.py": "50855de4e0ea037e7f98b958852a2d9a115047df817ff7f2f6272c5b05dba665",
+    "src/senssmarttech/statistics.py": "c11861e766968ea0786893b497f2a2b2e85575c622ba99a34a8ecdcaaf7f6324",
+    "src/senssmarttech/tables.py": "b89e85ba878650dc8c9e48b30230729616d064aa063e4cfe81755baa63a44c86",
+    "src/senssmarttech/verify.py": "5095f00074729fded3fcf46025d1a49a5ba85991c0cd64f3251eca331f46ba76",
+    "src/senssmarttech/__init__.py": "0e732cf735300db6e1471050d13843e1b1f451ae7ead69c24152285bbf550122"
+  },
+  "historical_pilot_reproduction": {
+    "status": "passed",
+    "tables": {
+      "external_pilot_beats": {
+        "rows": 11722,
+        "columns": 12,
+        "canonical_sha256": "4f6a118a60ec01bf24ab10472df90db1bb61b8081c0e0c29cf90b5c0fd5c83c1",
+        "reference_hash_match": true,
+        "exact_full_table_match": true
+      },
+      "external_pilot_records": {
+        "rows": 18,
+        "columns": 10,
+        "canonical_sha256": "04c3fcb7029b8c6611adba4a58e1723157c7ebe5cb25fea974f81b066eb882d0",
+        "reference_hash_match": true,
+        "exact_full_table_match": true
+      }
+    },
+    "manifest_values": {
+      "status": "pilot_failed",
+      "subjects": [
+        8,
+        12,
+        14,
+        16,
+        17,
+        20
+      ],
+      "records": 18,
+      "gates": {
+        "record_pass_fraction": 0.9444444444444444,
+        "subjects_with_30_bpm_span": 0,
+        "r_annotation_agreement": 0.988782463019498,
+        "positive_ptt_fraction": 0.41358130011943356,
+        "stable_ptt_polarity_fraction": 0.5864186998805665,
+        "valid_ptt_beats": 5044
+      },
+      "subject_hr_spans_bpm": {
+        "8": 3.0431107354184377,
+        "12": 17.531202654931093,
+        "14": 18.466510214288455,
+        "16": 9.109804558043592,
+        "17": 21.662387676508345,
+        "20": 11.887817817170216
+      },
+      "full_dataset_download_authorized_by_gate": false
+    },
+    "all_manifest_values_exact_match": true,
+    "source_sha256": {
+      "scripts\\reproduce_historical_pilot.py": "6f6a66f3b7557cc7a3107bf88edf1fd9414d0e8cf6c6de8683455c1f3dae904f",
+      "src\\senssmarttech\\fiducials.py": "2dd974b74f18064d1d9565f40285fee8545b17232e9d0f97b4d1b209cc9c19aa",
+      "src\\senssmarttech\\external.py": "7e1af2503d9a38f4dbbc489246a309c5c870815ad4de88f08468ece52a1a0b74",
+      "src\\senssmarttech\\signals.py": "50855de4e0ea037e7f98b958852a2d9a115047df817ff7f2f6272c5b05dba665"
+    },
+    "raw_source_sha256": {
+      "s12_run.atr": "d6ee68574e928718ec36f7bd17a6c31ee70b236958ab81080e938edf291087b0",
+      "s12_run.dat": "df20880b8035611adf8a4f4e0ce60e5ab68f7cccbf5f6b9aa0f01225e6a4a6cf",
+      "s12_run.hea": "e8960dfde98f1d7d1f38066689766f5cbbfa43ead9129db6a8264ce2086abbd2",
+      "s12_sit.atr": "5ae035f700fafc1dce741dc2ce9e43b2debb02573e0928aecf032dd4b61c7e84",
+      "s12_sit.dat": "e3ebe29243802423aa20749ba5b314b76063dcc782a821fd29af2f4647ed5021",
+      "s12_sit.hea": "ef51a9eecabea4378cc6e45a7397c528c815db6935b6385a1a37977e6da94bf5",
+      "s12_walk.atr": "2aee86fcbf695a8a04bfef0dee0cb575070c37ab8d03dd7d2db5ee70224ad44f",
+      "s12_walk.dat": "fed2d725556e83422b61582aa34cda817dd0a1633711ba223aa5cfd7a1dca030",
+      "s12_walk.hea": "6285ba20903f4e498ff2ad97ca8e954b8320fa1d7268f18f96bc3bfa671b8c81",
+      "s14_run.atr": "a5b15b2e2ce0be8a5ac08f05a851399f631702f3f5ffad993b75f6db880ecb48",
+      "s14_run.dat": "5bf914290c5af4fcd4d138230572bea477e9cfcd3cca640c901d59f9ea845021",
+      "s14_run.hea": "0d58d49f95c56d5ff6501e15d077ce832f8ac5b556de1e6daa3ef30ccbd42d8a",
+      "s14_sit.atr": "4f9ddd0f0d0395f37ee71ad21c3a559f07a92efb2ae6fb17aadf62e557d8b336",
+      "s14_sit.dat": "2f8b63c3f3eb45e410ead8401782a05a683765217514cf2024a3608ad50f75eb",
+      "s14_sit.hea": "13b9cf8c71d6094a4e6c28415b6cd870cfe007691f1dc1c8b5926fe35b7290ba",
+      "s14_walk.atr": "92cf75e430fca8feb739576ac5077a207b824c9cde64d78c56c8e0dc24070385",
+      "s14_walk.dat": "3d211a1e98b4b5f0e265c5fec3373e4d8974e37aca713ae2d3923a3b5b97a09a",
+      "s14_walk.hea": "781d5bee1527bb4816b729fa0fba32ea3d30b6c15d5042c83e228e9a8502d7a2",
+      "s16_run.atr": "bec433c33d2844ea9325d6d8b26c60fa37b43589f9f642b7fb9728140efa5030",
+      "s16_run.dat": "949a53558fa6b100e58085971389ee9f97cf8fd75e78ca07889e21215db6cc45",
+      "s16_run.hea": "42331698b4320a86614661c85be7cab03f006df373701ba5fe3a2fcb8da8226b",
+      "s16_sit.atr": "da7d6731a2d660a764b0ac8db5a8cfcb5fdc0048cc610ea764665a5afd394f37",
+      "s16_sit.dat": "1e9269f41b063daabefa1dab78708455407dfd5dfcca8a5cf864244519af0d2f",
+      "s16_sit.hea": "b33149e1f151ee668ef082d4add4321a26dc14b7a78e4932d69171a10205ca5a",
+      "s16_walk.atr": "3a898d36461101ea400b6f6fd572da04fb234162e7e187cc97e16f706ed8ff77",
+      "s16_walk.dat": "de163f42c753b687b9c7a8cc93823c544da05e1b5b62da28d5fb1be1cc8415e9",
+      "s16_walk.hea": "497ab421ac90377c660fd42a05c40a3ca051377114e23b6933734529c1e0cad5",
+      "s17_run.atr": "2a220d5b445d51235be4b15a05d370be45b8a066229c8cafaf07f5ef4984b94a",
+      "s17_run.dat": "fe8ea94c22ddbc87af39d1972b94ba333420d1a633ec6f0ba17ba8cd810bfaad",
+      "s17_run.hea": "102e05a6a0f72ddea90c78bc8e180758c5aaa4bdc9760b6034a902f56978994f",
+      "s17_sit.atr": "5601b27ba6f7d380fde7cb5ef8947b23fabf063e0f36f354387ecde9447f59f8",
+      "s17_sit.dat": "2059160ea11c8b7375863b11f91a2c8c54ace3c9ae7e36fa1e77f7fbd45dd92f",
+      "s17_sit.hea": "22d8c949d008e8c929715bbf7cbe9e483c0255a554c9789b857c5e6725b1dcd4",
+      "s17_walk.atr": "b9f23bf705da488ad5df573832d2e8efab2ef31589aa767720a8a7f920a7a69b",
+      "s17_walk.dat": "125dd23358828ecd342fef1b0726932702330de3cfe65167efee951112af2302",
+      "s17_walk.hea": "57ba82d246fa0cbc33e64878c6bb1d410badf6471a10f5bf2db90184def29e14",
+      "s20_run.atr": "a7fa890f6ce460064f2bc31a0d26641a03842c70bc741cfed307e4e5e46e7af5",
+      "s20_run.dat": "444dcac1d638249c16812babe9e96baa36b65c938dc55a45a144afd79cba2909",
+      "s20_run.hea": "3976b199d39f2a801909538b3bd603dd608fc8873a3561703dcac10a0bcf394e",
+      "s20_sit.atr": "e67acb90fed933a7f2ca6975012c1c5d0ae48fb5aa81a7601e2ccdd71181665a",
+      "s20_sit.dat": "5944565364f5ad2b1db8610410988ea46ccce7330075a7f1da35db4ac016d043",
+      "s20_sit.hea": "bf60380d893561b624cc85a1b1e6d866823da59136aad359f9c379b663292e6f",
+      "s20_walk.atr": "e6dbdec84e826265026783c072c428fababf3cb505785182d2e55e7735e0dacb",
+      "s20_walk.dat": "9a3fac52bb21f909c4335b252a41d5ddaa42d6d2d240f30de0cdb20bc93f82f3",
+      "s20_walk.hea": "d0b7a6344e9eed4fb7d6253eafeaf44bd175af49679343f34a853f6d74152243",
+      "s8_run.atr": "977161b79a9dffcaea3dafffc6f50e231bf338777fba568442be3de3c9aff74b",
+      "s8_run.dat": "236d492e6547a5ce3311a9a67a130fb8be367ce49b0e55bb3c29a66f6a1b571f",
+      "s8_run.hea": "fa21a3aa19abfdcdc49cfc38009c6d4f2a9037e2af5fb0d3c98b1fa671a662c6",
+      "s8_sit.atr": "4c233210245b8c83b604b0b0baff1b799e1c4d1e384fea93e733aeb1d095b259",
+      "s8_sit.dat": "bed6185ad395bfa7982ec2e2ba9d67f1e2bfd189b2ac02479edcabd2ce96cb48",
+      "s8_sit.hea": "f2162f9a8b18375ee4ce71a5539bef1b8af4ea42f025d0efdcd2c74b254d0a04",
+      "s8_walk.atr": "389f89de6556ca4c5cee4495495d1ce680012f52417c57cf0755b15f36de6eef",
+      "s8_walk.dat": "dbd734270c703d0bef2bcc29df01f0218781060906b432435db7d66c3981a9f9",
+      "s8_walk.hea": "3396941fd0ce83b250caadea77021863b8f55dd7b243b3f82c79f17648191e39"
+    },
+    "provenance": "Retained intersecting_tangent_foot primitive plus reconstructed fixed-window wrapper; not recovery of the complete old source file.",
+    "scope": "Computational reproduction of historical results, not physiological accuracy or external validation of revised models.",
+    "full_beat_tables_written": false
+  },
+  "doi": "10.5281/zenodo.24047810",
+  "doi_status": "reserved_unpublished",
+  "repository": "https://github.com/MRB0ZKURT/ppg-fiducial-heart-rate"
+}
