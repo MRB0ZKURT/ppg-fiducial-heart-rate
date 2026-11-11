@@ -29,7 +29,7 @@ Run `python scripts/reproduce_revision.py --help` for modes. Full mode regenerat
 
 ## Checks and release status
 
-Read VALIDATION_STATUS.md for the verified scope and limitations. A clean Python 3.12 installation passed the complete primary raw-data pipeline and all revision sensitivities in one full-mode invocation. The historical pilot also passed separately in that same clean environment. The DOI is reserved while the Zenodo draft awaits author approval; it becomes resolvable when the record is published.
+Read VALIDATION_STATUS.md for the verified scope and limitations. A clean Python 3.12 installation passed the complete primary raw-data pipeline and all revision sensitivities in one full-mode invocation. The historical pilot also passed separately in that same clean environment. Version 0.2.0 was published on Zenodo on 11 November 2026 at https://doi.org/10.5281/zenodo.24047810. This GitHub repository is publicly accessible. The ZIP is the unchanged verified archive; its preparation-time notes describe the status before publication.
 
 ## Historical pilot reproduction
 
